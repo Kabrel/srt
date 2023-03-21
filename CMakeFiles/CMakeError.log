@@ -1,0 +1,98 @@
+Determining if the pthread_getname_np exist failed with the following output:
+Change Dir: /Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/CMakeScratch/TryCompile-xuHf5x
+
+Run Build Command(s):/Applications/Xcode.app/Contents/Developer/usr/bin/make -f Makefile cmTC_7a167/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7a167.dir/build.make CMakeFiles/cmTC_7a167.dir/build
+Building C object CMakeFiles/cmTC_7a167.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_DARWIN_C_SOURCE -D_GNU_SOURCE -D_POSIX_SOURCE=1  -fvisibility=hidden -fvisibility-inlines-hidden -fembed-bitcode -pthread -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk -MD -MT CMakeFiles/cmTC_7a167.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_7a167.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_7a167.dir/CheckSymbolExists.c.o -c /Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/CMakeScratch/TryCompile-xuHf5x/CheckSymbolExists.c
+/Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/CMakeScratch/TryCompile-xuHf5x/CheckSymbolExists.c:2:10: fatal error: 'pthread_np.h' file not found
+#include <pthread_np.h>
+         ^~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_7a167.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_7a167/fast] Error 2
+
+
+File CheckSymbolExists.c:
+/* */
+#include <pthread_np.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_getname_np
+  return ((int*)(&pthread_getname_np))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_setname_np exist failed with the following output:
+Change Dir: /Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/CMakeScratch/TryCompile-AyVynJ
+
+Run Build Command(s):/Applications/Xcode.app/Contents/Developer/usr/bin/make -f Makefile cmTC_8f217/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_8f217.dir/build.make CMakeFiles/cmTC_8f217.dir/build
+Building C object CMakeFiles/cmTC_8f217.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_DARWIN_C_SOURCE -D_GNU_SOURCE -D_POSIX_SOURCE=1  -fvisibility=hidden -fvisibility-inlines-hidden -fembed-bitcode -pthread -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk -MD -MT CMakeFiles/cmTC_8f217.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_8f217.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_8f217.dir/CheckSymbolExists.c.o -c /Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/CMakeScratch/TryCompile-AyVynJ/CheckSymbolExists.c
+/Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/CMakeScratch/TryCompile-AyVynJ/CheckSymbolExists.c:2:10: fatal error: 'pthread_np.h' file not found
+#include <pthread_np.h>
+         ^~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_8f217.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_8f217/fast] Error 2
+
+
+File CheckSymbolExists.c:
+/* */
+#include <pthread_np.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_setname_np
+  return ((int*)(&pthread_setname_np))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function __atomic_fetch_add_8 exists in the atomic failed with the following output:
+Change Dir: /Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/CMakeScratch/TryCompile-EP8rSG
+
+Run Build Command(s):/Applications/Xcode.app/Contents/Developer/usr/bin/make -f Makefile cmTC_d3a8d/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d3a8d.dir/build.make CMakeFiles/cmTC_d3a8d.dir/build
+Building C object CMakeFiles/cmTC_d3a8d.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fvisibility=hidden -fvisibility-inlines-hidden -fembed-bitcode -DCHECK_FUNCTION_EXISTS=__atomic_fetch_add_8 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk -MD -MT CMakeFiles/cmTC_d3a8d.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_d3a8d.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_d3a8d.dir/CheckFunctionExists.c.o -c /Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/CMakeScratch/TryCompile-EP8rSG/CheckFunctionExists.c
+Linking C executable cmTC_d3a8d
+/opt/homebrew/Cellar/cmake/3.25.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3a8d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fvisibility=hidden -fvisibility-inlines-hidden -fembed-bitcode -DCHECK_FUNCTION_EXISTS=__atomic_fetch_add_8 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk CMakeFiles/cmTC_d3a8d.dir/CheckFunctionExists.c.o -o cmTC_d3a8d  -latomic 
+ld: library not found for -latomic
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_d3a8d] Error 1
+make: *** [cmTC_d3a8d/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test HAVE_LIBATOMIC_COMPILES failed with the following output:
+Change Dir: /Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/CMakeScratch/TryCompile-pSZC0v
+
+Run Build Command(s):/Applications/Xcode.app/Contents/Developer/usr/bin/make -f Makefile cmTC_2f5bc/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_2f5bc.dir/build.make CMakeFiles/cmTC_2f5bc.dir/build
+Building C object CMakeFiles/cmTC_2f5bc.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_LIBATOMIC_COMPILES  -fvisibility=hidden -fvisibility-inlines-hidden -fembed-bitcode  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk -MD -MT CMakeFiles/cmTC_2f5bc.dir/src.c.o -MF CMakeFiles/cmTC_2f5bc.dir/src.c.o.d -o CMakeFiles/cmTC_2f5bc.dir/src.c.o -c /Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/CMakeScratch/TryCompile-pSZC0v/src.c
+Linking C executable cmTC_2f5bc
+/opt/homebrew/Cellar/cmake/3.25.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f5bc.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fvisibility=hidden -fvisibility-inlines-hidden -fembed-bitcode  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk CMakeFiles/cmTC_2f5bc.dir/src.c.o -o cmTC_2f5bc  -latomic 
+ld: library not found for -latomic
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_2f5bc] Error 1
+make: *** [cmTC_2f5bc/fast] Error 2
+
+
+Source file was:
+
+		int main(void)
+		{
+			const int result = 0;
+			return result;
+		}
+	
+

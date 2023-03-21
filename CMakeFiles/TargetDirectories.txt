@@ -1,0 +1,12 @@
+/Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/srt_virtual.dir
+/Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/srt_shared.dir
+/Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/srt_static.dir
+/Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/srtsupport_virtual.dir
+/Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/srt-live-transmit.dir
+/Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/srt-file-transmit.dir
+/Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/srt-tunnel.dir
+/Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/edit_cache.dir
+/Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/rebuild_cache.dir
+/Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/list_install_components.dir
+/Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/install.dir
+/Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/install/local.dir

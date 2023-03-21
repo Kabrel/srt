@@ -1,0 +1,417 @@
+The target system is: Darwin - 1 - 
+The host system is: Darwin - 22.3.0 - arm64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+Build flags: -fvisibility=hidden;-fvisibility-inlines-hidden;-fembed-bitcode
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is AppleClang, found in "/Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/3.25.3/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
+Build flags: -fvisibility=hidden;-fvisibility-inlines-hidden;-fembed-bitcode
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is AppleClang, found in "/Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/3.25.3/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/CMakeScratch/TryCompile-ENngCP
+
+Run Build Command(s):/Applications/Xcode.app/Contents/Developer/usr/bin/make -f Makefile cmTC_d3070/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d3070.dir/build.make CMakeFiles/cmTC_d3070.dir/build
+Building C object CMakeFiles/cmTC_d3070.dir/CMakeCCompilerABI.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fvisibility=hidden -fvisibility-inlines-hidden -fembed-bitcode  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_d3070.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_d3070.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_d3070.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.25.3/share/cmake/Modules/CMakeCCompilerABI.c
+Apple clang version 14.0.0 (clang-1400.0.29.202)
+Target: arm64-apple-darwin22.3.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios16.2.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-llvm-bc -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -funwind-tables=2 -fobjc-msgsend-selector-stubs -target-sdk-version=16.2 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-a7 -target-feature +fp-armv8 -target-feature +neon -target-feature +crypto -target-feature +zcm -target-feature +zcz -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 820.1 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_d3070.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_d3070.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-cast-function-type -Wno-bitwise-instead-of-logical -fdebug-compilation-dir=/Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/CMakeScratch/TryCompile-ENngCP -ferror-limit 19 -fvisibility hidden -fvisibility-inlines-hidden -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /var/folders/g_/tqqq8n_d7j562hxw0cptxzd00000gn/T/CMakeCCompilerABI-3610d2.bc -x c /opt/homebrew/Cellar/cmake/3.25.3/share/cmake/Modules/CMakeCCompilerABI.c
+clang -cc1 version 14.0.0 (clang-1400.0.29.202) default target arm64-apple-darwin22.3.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios16.2.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj --mrelax-relocations -fembed-bitcode=all -fembed-bitcode=all -disable-llvm-passes -fobjc-msgsend-selector-stubs -target-sdk-version=16.2 -fvisibility-inlines-hidden-static-local-var -fno-rounding-math -target-abi darwinpcs -o CMakeFiles/cmTC_d3070.dir/CMakeCCompilerABI.c.o -x ir /var/folders/g_/tqqq8n_d7j562hxw0cptxzd00000gn/T/CMakeCCompilerABI-3610d2.bc
+Linking C static library libcmTC_d3070.a
+/opt/homebrew/Cellar/cmake/3.25.3/bin/cmake -P CMakeFiles/cmTC_d3070.dir/cmake_clean_target.cmake
+/opt/homebrew/Cellar/cmake/3.25.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3070.dir/link.txt --verbose=1
+ar qc libcmTC_d3070.a CMakeFiles/cmTC_d3070.dir/CMakeCCompilerABI.c.o
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/usr/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  end of search list found
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/usr/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(CMAKE_LINKER-NOTFOUND|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/CMakeScratch/TryCompile-ENngCP]
+  ignore line: []
+  ignore line: [Run Build Command(s):/Applications/Xcode.app/Contents/Developer/usr/bin/make -f Makefile cmTC_d3070/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d3070.dir/build.make CMakeFiles/cmTC_d3070.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_d3070.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fvisibility=hidden -fvisibility-inlines-hidden -fembed-bitcode  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_d3070.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_d3070.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_d3070.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.25.3/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Apple clang version 14.0.0 (clang-1400.0.29.202)]
+  ignore line: [Target: arm64-apple-darwin22.3.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios16.2.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-llvm-bc -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -funwind-tables=2 -fobjc-msgsend-selector-stubs -target-sdk-version=16.2 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-a7 -target-feature +fp-armv8 -target-feature +neon -target-feature +crypto -target-feature +zcm -target-feature +zcz -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 820.1 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_d3070.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_d3070.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-cast-function-type -Wno-bitwise-instead-of-logical -fdebug-compilation-dir=/Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/CMakeScratch/TryCompile-ENngCP -ferror-limit 19 -fvisibility hidden -fvisibility-inlines-hidden -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /var/folders/g_/tqqq8n_d7j562hxw0cptxzd00000gn/T/CMakeCCompilerABI-3610d2.bc -x c /opt/homebrew/Cellar/cmake/3.25.3/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 14.0.0 (clang-1400.0.29.202) default target arm64-apple-darwin22.3.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios16.2.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj --mrelax-relocations -fembed-bitcode=all -fembed-bitcode=all -disable-llvm-passes -fobjc-msgsend-selector-stubs -target-sdk-version=16.2 -fvisibility-inlines-hidden-static-local-var -fno-rounding-math -target-abi darwinpcs -o CMakeFiles/cmTC_d3070.dir/CMakeCCompilerABI.c.o -x ir /var/folders/g_/tqqq8n_d7j562hxw0cptxzd00000gn/T/CMakeCCompilerABI-3610d2.bc]
+  ignore line: [Linking C static library libcmTC_d3070.a]
+  ignore line: [/opt/homebrew/Cellar/cmake/3.25.3/bin/cmake -P CMakeFiles/cmTC_d3070.dir/cmake_clean_target.cmake]
+  ignore line: [/opt/homebrew/Cellar/cmake/3.25.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3070.dir/link.txt --verbose=1]
+  ignore line: [ar qc libcmTC_d3070.a CMakeFiles/cmTC_d3070.dir/CMakeCCompilerABI.c.o]
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/CMakeScratch/TryCompile-7rGbBy
+
+Run Build Command(s):/Applications/Xcode.app/Contents/Developer/usr/bin/make -f Makefile cmTC_041a5/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_041a5.dir/build.make CMakeFiles/cmTC_041a5.dir/build
+Building CXX object CMakeFiles/cmTC_041a5.dir/CMakeCXXCompilerABI.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -fvisibility=hidden -fvisibility-inlines-hidden -fembed-bitcode  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_041a5.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_041a5.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_041a5.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.25.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Apple clang version 14.0.0 (clang-1400.0.29.202)
+Target: arm64-apple-darwin22.3.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios16.2.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-llvm-bc -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -funwind-tables=2 -fobjc-msgsend-selector-stubs -target-sdk-version=16.2 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-a7 -target-feature +fp-armv8 -target-feature +neon -target-feature +crypto -target-feature +zcm -target-feature +zcz -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 820.1 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_041a5.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_041a5.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-cast-function-type -Wno-bitwise-instead-of-logical -fdeprecated-macro -fdebug-compilation-dir=/Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/CMakeScratch/TryCompile-7rGbBy -ferror-limit 19 -fvisibility hidden -fvisibility-inlines-hidden -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /var/folders/g_/tqqq8n_d7j562hxw0cptxzd00000gn/T/CMakeCXXCompilerABI-1169f5.bc -x c++ /opt/homebrew/Cellar/cmake/3.25.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 14.0.0 (clang-1400.0.29.202) default target arm64-apple-darwin22.3.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/usr/include/c++/v1
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios16.2.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj --mrelax-relocations -fembed-bitcode=all -fembed-bitcode=all -disable-llvm-passes -fobjc-msgsend-selector-stubs -target-sdk-version=16.2 -fvisibility-inlines-hidden-static-local-var -fno-rounding-math -target-abi darwinpcs -o CMakeFiles/cmTC_041a5.dir/CMakeCXXCompilerABI.cpp.o -x ir /var/folders/g_/tqqq8n_d7j562hxw0cptxzd00000gn/T/CMakeCXXCompilerABI-1169f5.bc
+Linking CXX static library libcmTC_041a5.a
+/opt/homebrew/Cellar/cmake/3.25.3/bin/cmake -P CMakeFiles/cmTC_041a5.dir/cmake_clean_target.cmake
+/opt/homebrew/Cellar/cmake/3.25.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_041a5.dir/link.txt --verbose=1
+ar qc libcmTC_041a5.a CMakeFiles/cmTC_041a5.dir/CMakeCXXCompilerABI.cpp.o
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/usr/include/c++/v1]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/usr/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  end of search list found
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/usr/include/c++/v1] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/usr/include/c++/v1]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/usr/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(CMAKE_LINKER-NOTFOUND|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/CMakeScratch/TryCompile-7rGbBy]
+  ignore line: []
+  ignore line: [Run Build Command(s):/Applications/Xcode.app/Contents/Developer/usr/bin/make -f Makefile cmTC_041a5/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_041a5.dir/build.make CMakeFiles/cmTC_041a5.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_041a5.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -fvisibility=hidden -fvisibility-inlines-hidden -fembed-bitcode  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_041a5.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_041a5.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_041a5.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.25.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Apple clang version 14.0.0 (clang-1400.0.29.202)]
+  ignore line: [Target: arm64-apple-darwin22.3.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios16.2.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-llvm-bc -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -funwind-tables=2 -fobjc-msgsend-selector-stubs -target-sdk-version=16.2 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-a7 -target-feature +fp-armv8 -target-feature +neon -target-feature +crypto -target-feature +zcm -target-feature +zcz -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 820.1 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_041a5.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_041a5.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-cast-function-type -Wno-bitwise-instead-of-logical -fdeprecated-macro -fdebug-compilation-dir=/Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/CMakeScratch/TryCompile-7rGbBy -ferror-limit 19 -fvisibility hidden -fvisibility-inlines-hidden -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /var/folders/g_/tqqq8n_d7j562hxw0cptxzd00000gn/T/CMakeCXXCompilerABI-1169f5.bc -x c++ /opt/homebrew/Cellar/cmake/3.25.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 14.0.0 (clang-1400.0.29.202) default target arm64-apple-darwin22.3.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/usr/include/c++/v1]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios16.2.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj --mrelax-relocations -fembed-bitcode=all -fembed-bitcode=all -disable-llvm-passes -fobjc-msgsend-selector-stubs -target-sdk-version=16.2 -fvisibility-inlines-hidden-static-local-var -fno-rounding-math -target-abi darwinpcs -o CMakeFiles/cmTC_041a5.dir/CMakeCXXCompilerABI.cpp.o -x ir /var/folders/g_/tqqq8n_d7j562hxw0cptxzd00000gn/T/CMakeCXXCompilerABI-1169f5.bc]
+  ignore line: [Linking CXX static library libcmTC_041a5.a]
+  ignore line: [/opt/homebrew/Cellar/cmake/3.25.3/bin/cmake -P CMakeFiles/cmTC_041a5.dir/cmake_clean_target.cmake]
+  ignore line: [/opt/homebrew/Cellar/cmake/3.25.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_041a5.dir/link.txt --verbose=1]
+  ignore line: [ar qc libcmTC_041a5.a CMakeFiles/cmTC_041a5.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/CMakeScratch/TryCompile-5PbTre
+
+Run Build Command(s):/Applications/Xcode.app/Contents/Developer/usr/bin/make -f Makefile cmTC_ca8a0/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ca8a0.dir/build.make CMakeFiles/cmTC_ca8a0.dir/build
+Building C object CMakeFiles/cmTC_ca8a0.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fvisibility=hidden -fvisibility-inlines-hidden -fembed-bitcode  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk -MD -MT CMakeFiles/cmTC_ca8a0.dir/src.c.o -MF CMakeFiles/cmTC_ca8a0.dir/src.c.o.d -o CMakeFiles/cmTC_ca8a0.dir/src.c.o -c /Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/CMakeScratch/TryCompile-5PbTre/src.c
+Linking C static library libcmTC_ca8a0.a
+/opt/homebrew/Cellar/cmake/3.25.3/bin/cmake -P CMakeFiles/cmTC_ca8a0.dir/cmake_clean_target.cmake
+/opt/homebrew/Cellar/cmake/3.25.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca8a0.dir/link.txt --verbose=1
+ar qc libcmTC_ca8a0.a CMakeFiles/cmTC_ca8a0.dir/src.c.o
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_CLOCK_GETTIME_IN succeeded with the following output:
+Change Dir: /Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/CMakeScratch/TryCompile-A8YMvS
+
+Run Build Command(s):/Applications/Xcode.app/Contents/Developer/usr/bin/make -f Makefile cmTC_f73ed/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f73ed.dir/build.make CMakeFiles/cmTC_f73ed.dir/build
+Building CXX object CMakeFiles/cmTC_f73ed.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLOCK_GETTIME_IN  -fvisibility=hidden -fvisibility-inlines-hidden -fembed-bitcode  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk -MD -MT CMakeFiles/cmTC_f73ed.dir/src.cxx.o -MF CMakeFiles/cmTC_f73ed.dir/src.cxx.o.d -o CMakeFiles/cmTC_f73ed.dir/src.cxx.o -c /Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/CMakeScratch/TryCompile-A8YMvS/src.cxx
+Linking CXX static library libcmTC_f73ed.a
+/opt/homebrew/Cellar/cmake/3.25.3/bin/cmake -P CMakeFiles/cmTC_f73ed.dir/cmake_clean_target.cmake
+/opt/homebrew/Cellar/cmake/3.25.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f73ed.dir/link.txt --verbose=1
+ar qc libcmTC_f73ed.a CMakeFiles/cmTC_f73ed.dir/src.cxx.o
+
+
+Source file was:
+
+		#include <time.h>
+		int main() {
+		  timespec res;
+		  int result = clock_gettime(CLOCK_MONOTONIC, &res);
+		  return result == 0;
+		}
+	
+
+Determining if the function inet_pton exists passed with the following output:
+Change Dir: /Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/CMakeScratch/TryCompile-9hDxCX
+
+Run Build Command(s):/Applications/Xcode.app/Contents/Developer/usr/bin/make -f Makefile cmTC_ea3b1/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ea3b1.dir/build.make CMakeFiles/cmTC_ea3b1.dir/build
+Building C object CMakeFiles/cmTC_ea3b1.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fvisibility=hidden -fvisibility-inlines-hidden -fembed-bitcode -DCHECK_FUNCTION_EXISTS=inet_pton -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk -MD -MT CMakeFiles/cmTC_ea3b1.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_ea3b1.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_ea3b1.dir/CheckFunctionExists.c.o -c /Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/CMakeScratch/TryCompile-9hDxCX/CheckFunctionExists.c
+Linking C static library libcmTC_ea3b1.a
+/opt/homebrew/Cellar/cmake/3.25.3/bin/cmake -P CMakeFiles/cmTC_ea3b1.dir/cmake_clean_target.cmake
+/opt/homebrew/Cellar/cmake/3.25.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea3b1.dir/link.txt --verbose=1
+ar qc libcmTC_ea3b1.a CMakeFiles/cmTC_ea3b1.dir/CheckFunctionExists.c.o
+
+
+
+Determining if the pthread_getname_np exist passed with the following output:
+Change Dir: /Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/CMakeScratch/TryCompile-M3q2rG
+
+Run Build Command(s):/Applications/Xcode.app/Contents/Developer/usr/bin/make -f Makefile cmTC_4542a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_4542a.dir/build.make CMakeFiles/cmTC_4542a.dir/build
+Building C object CMakeFiles/cmTC_4542a.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_DARWIN_C_SOURCE -D_GNU_SOURCE -D_POSIX_SOURCE=1  -fvisibility=hidden -fvisibility-inlines-hidden -fembed-bitcode -pthread -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk -MD -MT CMakeFiles/cmTC_4542a.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_4542a.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_4542a.dir/CheckSymbolExists.c.o -c /Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/CMakeScratch/TryCompile-M3q2rG/CheckSymbolExists.c
+Linking C static library libcmTC_4542a.a
+/opt/homebrew/Cellar/cmake/3.25.3/bin/cmake -P CMakeFiles/cmTC_4542a.dir/cmake_clean_target.cmake
+/opt/homebrew/Cellar/cmake/3.25.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4542a.dir/link.txt --verbose=1
+ar qc libcmTC_4542a.a CMakeFiles/cmTC_4542a.dir/CheckSymbolExists.c.o
+
+
+File CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_getname_np
+  return ((int*)(&pthread_getname_np))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_setname_np exist passed with the following output:
+Change Dir: /Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/CMakeScratch/TryCompile-a0FOt0
+
+Run Build Command(s):/Applications/Xcode.app/Contents/Developer/usr/bin/make -f Makefile cmTC_dfea0/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_dfea0.dir/build.make CMakeFiles/cmTC_dfea0.dir/build
+Building C object CMakeFiles/cmTC_dfea0.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_DARWIN_C_SOURCE -D_GNU_SOURCE -D_POSIX_SOURCE=1  -fvisibility=hidden -fvisibility-inlines-hidden -fembed-bitcode -pthread -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk -MD -MT CMakeFiles/cmTC_dfea0.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_dfea0.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_dfea0.dir/CheckSymbolExists.c.o -c /Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/CMakeScratch/TryCompile-a0FOt0/CheckSymbolExists.c
+Linking C static library libcmTC_dfea0.a
+/opt/homebrew/Cellar/cmake/3.25.3/bin/cmake -P CMakeFiles/cmTC_dfea0.dir/cmake_clean_target.cmake
+/opt/homebrew/Cellar/cmake/3.25.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfea0.dir/link.txt --verbose=1
+ar qc libcmTC_dfea0.a CMakeFiles/cmTC_dfea0.dir/CheckSymbolExists.c.o
+
+
+File CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_setname_np
+  return ((int*)(&pthread_setname_np))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_GCCATOMIC_INTRINSICS succeeded with the following output:
+Change Dir: /Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/CMakeScratch/TryCompile-UMmYjn
+
+Run Build Command(s):/Applications/Xcode.app/Contents/Developer/usr/bin/make -f Makefile cmTC_51525/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_51525.dir/build.make CMakeFiles/cmTC_51525.dir/build
+Building C object CMakeFiles/cmTC_51525.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_GCCATOMIC_INTRINSICS  -fvisibility=hidden -fvisibility-inlines-hidden -fembed-bitcode  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk -MD -MT CMakeFiles/cmTC_51525.dir/src.c.o -MF CMakeFiles/cmTC_51525.dir/src.c.o.d -o CMakeFiles/cmTC_51525.dir/src.c.o -c /Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/CMakeScratch/TryCompile-UMmYjn/src.c
+Linking C executable cmTC_51525
+/opt/homebrew/Cellar/cmake/3.25.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51525.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fvisibility=hidden -fvisibility-inlines-hidden -fembed-bitcode  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk CMakeFiles/cmTC_51525.dir/src.c.o -o cmTC_51525 
+
+
+Source file was:
+
+		#include<stddef.h>
+		#include<stdint.h>
+		int main(void)
+		{
+			ptrdiff_t x = 0;
+			intmax_t y = 0;
+			__atomic_add_fetch(&x, 1, __ATOMIC_SEQ_CST);
+			__atomic_add_fetch(&y, 1, __ATOMIC_SEQ_CST);
+			return __atomic_sub_fetch(&x, 1, __ATOMIC_SEQ_CST)
+				+ __atomic_sub_fetch(&y, 1, __ATOMIC_SEQ_CST);
+		}
+	
+
+Performing C++ SOURCE FILE Test HAVE_CXX_ATOMIC succeeded with the following output:
+Change Dir: /Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/CMakeScratch/TryCompile-shp7lI
+
+Run Build Command(s):/Applications/Xcode.app/Contents/Developer/usr/bin/make -f Makefile cmTC_5be44/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5be44.dir/build.make CMakeFiles/cmTC_5be44.dir/build
+Building CXX object CMakeFiles/cmTC_5be44.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_ATOMIC  -fvisibility=hidden -fvisibility-inlines-hidden -fembed-bitcode -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk -MD -MT CMakeFiles/cmTC_5be44.dir/src.cxx.o -MF CMakeFiles/cmTC_5be44.dir/src.cxx.o.d -o CMakeFiles/cmTC_5be44.dir/src.cxx.o -c /Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/CMakeScratch/TryCompile-shp7lI/src.cxx
+Linking CXX static library libcmTC_5be44.a
+/opt/homebrew/Cellar/cmake/3.25.3/bin/cmake -P CMakeFiles/cmTC_5be44.dir/cmake_clean_target.cmake
+/opt/homebrew/Cellar/cmake/3.25.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5be44.dir/link.txt --verbose=1
+ar qc libcmTC_5be44.a CMakeFiles/cmTC_5be44.dir/src.cxx.o
+
+
+Source file was:
+
+      #include<cstdint>
+      #include<atomic>
+      int main(void)
+      {
+         std::atomic<std::ptrdiff_t> x(0);
+         std::atomic<std::intmax_t> y(0);
+         return x + y;
+      }
+      
+
+Performing C++ SOURCE FILE Test HAVE_CXX_ATOMIC_STATIC succeeded with the following output:
+Change Dir: /Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/CMakeScratch/TryCompile-ojeXUq
+
+Run Build Command(s):/Applications/Xcode.app/Contents/Developer/usr/bin/make -f Makefile cmTC_a0979/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a0979.dir/build.make CMakeFiles/cmTC_a0979.dir/build
+Building CXX object CMakeFiles/cmTC_a0979.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_ATOMIC_STATIC  -fvisibility=hidden -fvisibility-inlines-hidden -fembed-bitcode -std=c++11 -static -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk -MD -MT CMakeFiles/cmTC_a0979.dir/src.cxx.o -MF CMakeFiles/cmTC_a0979.dir/src.cxx.o.d -o CMakeFiles/cmTC_a0979.dir/src.cxx.o -c /Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/CMakeScratch/TryCompile-ojeXUq/src.cxx
+Linking CXX static library libcmTC_a0979.a
+/opt/homebrew/Cellar/cmake/3.25.3/bin/cmake -P CMakeFiles/cmTC_a0979.dir/cmake_clean_target.cmake
+/opt/homebrew/Cellar/cmake/3.25.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0979.dir/link.txt --verbose=1
+ar qc libcmTC_a0979.a CMakeFiles/cmTC_a0979.dir/src.cxx.o
+
+
+Source file was:
+
+      #include<cstdint>
+      #include<atomic>
+      int main(void)
+      {
+         std::atomic<std::ptrdiff_t> x(0);
+         std::atomic<std::intmax_t> y(0);
+         return x + y;
+      }
+      
+
+Performing C++ SOURCE FILE Test HAVE_CXX_STD_PUT_TIME succeeded with the following output:
+Change Dir: /Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/CMakeScratch/TryCompile-pHuhYA
+
+Run Build Command(s):/Applications/Xcode.app/Contents/Developer/usr/bin/make -f Makefile cmTC_97cb6/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_97cb6.dir/build.make CMakeFiles/cmTC_97cb6.dir/build
+Building CXX object CMakeFiles/cmTC_97cb6.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXX_STD_PUT_TIME  -fvisibility=hidden -fvisibility-inlines-hidden -fembed-bitcode -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk -MD -MT CMakeFiles/cmTC_97cb6.dir/src.cxx.o -MF CMakeFiles/cmTC_97cb6.dir/src.cxx.o.d -o CMakeFiles/cmTC_97cb6.dir/src.cxx.o -c /Users/kabrel/XCode/WatchSRT/WatchSRT/Submodules/SRT_Frame/CMakeFiles/CMakeScratch/TryCompile-pHuhYA/src.cxx
+Linking CXX executable cmTC_97cb6
+/opt/homebrew/Cellar/cmake/3.25.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97cb6.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -fvisibility=hidden -fvisibility-inlines-hidden -fembed-bitcode -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk CMakeFiles/cmTC_97cb6.dir/src.cxx.o -o cmTC_97cb6 
+
+
+Source file was:
+
+      #include <iostream>
+      #include <iomanip>
+      #include <ctime>
+      int main(void)
+      {
+         const int result = 0;
+         std::time_t t = std::time(nullptr);
+         std::tm tm = *std::localtime(&t);
+         std::cout
+            << std::put_time(&tm, "%FT%T")
+            << std::setfill('0')
+            << std::setw(6)
+            << std::endl;
+         return result;
+      }
+      
+
